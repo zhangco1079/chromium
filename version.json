@@ -1,12 +1,32 @@
 {
     "chromium": {
-        "version": "75.0.3770.15",
-        "darwin": "http://167.99.163.129/Chromium-mac-75.0.3770.15.zip",
-        "windows":"http://167.99.163.129/Chromium-windows-75.0.3770.15.zip"
+        "version": "77.0.3824.6",
+        "darwin": "http://138.68.29.7/Chromium-mac-77.0.3824.6.zip",
+        "windows": "http://138.68.29.7/Chromium-windows-77.0.3824.6.zip"
     },
     "jjqqkk": {
-        "version": 1,
-        "darwin": "http://167.99.163.129/JJQQKK-1.1.0.pkg",
-        "windows": "http://167.99.163.129/JJQQKK.msi"
+        "version": 5,
+        "darwin": "http://206.189.78.230/JJQQKK-2.3.0.pkg",
+        "windows": "http://206.189.78.230/JJQQKK-2.3.0.msi"
+    },
+    "darwin": {
+        "jjqqkk": {
+            "version": 5,
+            "installer": "http://206.189.78.230/JJQQKK-2.3.0.pkg"
+        },
+        "chromium": {
+            "version": "77.0.3824.6",
+            "zip": "http://138.68.29.7/Chromium-mac-77.0.3824.6.zip"
+        }
+    },
+    "windows": {
+        "jjqqkk": {
+            "version": 5,
+            "installer": "http://206.189.78.230/JJQQKK-2.3.0.msi"
+        },
+        "chromium": {
+            "version": "77.0.3824.6",
+            "zip": "http://138.68.29.7/Chromium-windows-77.0.3824.6.zip"
+        }
     }
 }
